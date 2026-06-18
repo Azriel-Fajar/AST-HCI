@@ -1,4 +1,4 @@
-<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Lumière emblem">
+<svg width="200" height="200" viewBox="16 16 168 168" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Lumière emblem">
   <defs>
     <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#d9b25e"/>
@@ -41,9 +41,4 @@
            C96 119 92 113 92 104
            C92 97 94 90 100 82 Z"
         fill="#1a1a1a" opacity="0.85"/>
-
-  <!-- Serif L monogram cradled in the flame -->
-  <text x="100" y="116" text-anchor="middle"
-        font-family="'Playfair Display', Georgia, serif"
-        font-size="34" font-weight="600" fill="#f5f1e8">L</text>
 </svg>

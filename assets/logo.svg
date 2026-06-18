@@ -10,7 +10,7 @@
   </defs>
 
   <!-- Emblem -->
-  <g transform="translate(0 -20) scale(0.55)">
+  <g transform="translate(-12 -10) scale(0.9)">
     <g stroke="#c9a14a" stroke-width="2.5" stroke-linecap="round" fill="none">
       <g transform="translate(100 100)">
         <line x1="0" y1="-78" x2="0" y2="-66"/>
@@ -30,12 +30,11 @@
     <circle cx="100" cy="100" r="56" fill="none" stroke="url(#gold)" stroke-width="2.5"/>
     <path d="M100 64 C112 78 116 90 116 102 C116 117 109 127 100 127 C91 127 84 117 84 102 C84 90 88 78 100 64 Z" fill="url(#gold)"/>
     <path d="M100 82 C106 90 108 97 108 104 C108 113 104 119 100 119 C96 119 92 113 92 104 C92 97 94 90 100 82 Z" fill="#1a1a1a" opacity="0.85"/>
-    <text x="100" y="116" text-anchor="middle" font-family="'Playfair Display', Georgia, serif" font-size="34" font-weight="600" fill="#f5f1e8">L</text>
   </g>
 
   <!-- Wordmark -->
-  <text x="138" y="82" font-family="'Playfair Display', Georgia, serif" font-size="52" font-weight="600" fill="#1a1a1a">Lumi<tspan fill="url(#gold)">è</tspan>re</text>
+  <text x="172" y="82" font-family="'Playfair Display', Georgia, serif" font-size="52" font-weight="600" fill="#1a1a1a">Lumi<tspan fill="url(#gold)">è</tspan>re</text>
 
   <!-- Tagline -->
-  <text x="140" y="108" font-family="'Inter', system-ui, sans-serif" font-size="13" font-weight="500" letter-spacing="3.5" fill="#5c5751">MODERN FINE DINING</text>
+  <text x="174" y="108" font-family="'Inter', system-ui, sans-serif" font-size="13" font-weight="500" letter-spacing="3.5" fill="#5c5751">MODERN FINE DINING</text>
 </svg>
