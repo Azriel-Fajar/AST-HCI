@@ -1,0 +1,41 @@
+<svg width="520" height="160" viewBox="0 0 520 160" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Lumière — Modern Fine Dining">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d9b25e"/>
+      <stop offset="1" stop-color="#c9a14a"/>
+    </linearGradient>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&amp;family=Inter:wght@500&amp;display=swap');
+    </style>
+  </defs>
+
+  <!-- Emblem -->
+  <g transform="translate(0 -20) scale(0.55)">
+    <g stroke="#c9a14a" stroke-width="2.5" stroke-linecap="round" fill="none">
+      <g transform="translate(100 100)">
+        <line x1="0" y1="-78" x2="0" y2="-66"/>
+        <line x1="0" y1="-78" x2="0" y2="-66" transform="rotate(30)"/>
+        <line x1="0" y1="-78" x2="0" y2="-66" transform="rotate(60)"/>
+        <line x1="0" y1="-78" x2="0" y2="-66" transform="rotate(90)"/>
+        <line x1="0" y1="-78" x2="0" y2="-66" transform="rotate(120)"/>
+        <line x1="0" y1="-78" x2="0" y2="-66" transform="rotate(150)"/>
+        <line x1="0" y1="-78" x2="0" y2="-66" transform="rotate(180)"/>
+        <line x1="0" y1="-78" x2="0" y2="-66" transform="rotate(210)"/>
+        <line x1="0" y1="-78" x2="0" y2="-66" transform="rotate(240)"/>
+        <line x1="0" y1="-78" x2="0" y2="-66" transform="rotate(270)"/>
+        <line x1="0" y1="-78" x2="0" y2="-66" transform="rotate(300)"/>
+        <line x1="0" y1="-78" x2="0" y2="-66" transform="rotate(330)"/>
+      </g>
+    </g>
+    <circle cx="100" cy="100" r="56" fill="none" stroke="url(#gold)" stroke-width="2.5"/>
+    <path d="M100 64 C112 78 116 90 116 102 C116 117 109 127 100 127 C91 127 84 117 84 102 C84 90 88 78 100 64 Z" fill="url(#gold)"/>
+    <path d="M100 82 C106 90 108 97 108 104 C108 113 104 119 100 119 C96 119 92 113 92 104 C92 97 94 90 100 82 Z" fill="#1a1a1a" opacity="0.85"/>
+    <text x="100" y="116" text-anchor="middle" font-family="'Playfair Display', Georgia, serif" font-size="34" font-weight="600" fill="#f5f1e8">L</text>
+  </g>
+
+  <!-- Wordmark -->
+  <text x="138" y="82" font-family="'Playfair Display', Georgia, serif" font-size="52" font-weight="600" fill="#1a1a1a">Lumi<tspan fill="url(#gold)">è</tspan>re</text>
+
+  <!-- Tagline -->
+  <text x="140" y="108" font-family="'Inter', system-ui, sans-serif" font-size="13" font-weight="500" letter-spacing="3.5" fill="#5c5751">MODERN FINE DINING</text>
+</svg>
