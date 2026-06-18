@@ -14,18 +14,18 @@
   <a class="skip-link" href="#main">Skip to content</a>
 
   <header class="nav" data-open="false">
-    <div class="container nav__inner">
-      <a class="nav__brand" href="index.html">Lumi<span>è</span>re</a>
-      <button class="nav__toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="nav-links">
+    <div class="container nav-inner">
+      <a class="nav-brand" href="index.html">Lumi<span>è</span>re</a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="nav-links">
         <span></span><span></span><span></span>
       </button>
-      <nav id="nav-links" class="nav__links" aria-label="Primary">
+      <nav id="nav-links" class="nav-links" aria-label="Primary">
         <a href="index.html">Home</a>
         <a href="menu.html">Menu</a>
         <a href="about.html">About</a>
         <a href="gallery.html">Gallery</a>
         <a href="contact.html">Contact</a>
-        <a class="btn btn--primary" href="reservation.html">Reserve</a>
+        <a class="btn btn-primary" href="reservation.html">Reserve</a>
       </nav>
     </div>
   </header>
@@ -42,7 +42,7 @@
     <section class="section">
       <div class="container">
         <form class="form" data-validate-form data-success-msg="Thank you. Your reservation request has been received. We will confirm by email shortly." novalidate>
-          <div class="form__row form__row--2">
+          <div class="form-row form-row-2">
             <div class="field">
               <label for="r-name">Full name <span class="req" aria-hidden="true">*</span></label>
               <input id="r-name" name="name" type="text" autocomplete="name" data-validate="required" aria-describedby="r-name-err">
@@ -55,7 +55,7 @@
             </div>
           </div>
 
-          <div class="form__row form__row--2">
+          <div class="form-row form-row-2">
             <div class="field">
               <label for="r-date">Date <span class="req" aria-hidden="true">*</span></label>
               <input id="r-date" name="date" type="date" data-validate="required date" aria-describedby="r-date-err">
@@ -85,17 +85,17 @@
             <textarea id="r-notes" name="notes" placeholder="Allergies, celebrations, seating preference..."></textarea>
           </div>
 
-          <p class="form__status" role="status" aria-live="polite"></p>
-          <button type="submit" class="btn btn--primary" style="width:100%">Request Reservation</button>
+          <p class="form-status" role="status" aria-live="polite"></p>
+          <button type="submit" class="btn btn-primary" style="width:100%">Request Reservation</button>
         </form>
       </div>
     </section>
   </main>
 
   <footer class="footer">
-    <div class="container footer__grid">
+    <div class="container footer-grid">
       <div>
-        <p class="footer__brand">Lumi<span>è</span>re</p>
+        <p class="footer-brand">Lumi<span>è</span>re</p>
         <p>Modern fine dining in the heart of Salatiga. Seasonal menus, curated wine, an intimate room.</p>
       </div>
       <div>
@@ -113,7 +113,7 @@
         </ul>
       </div>
     </div>
-    <div class="container footer__bottom">
+    <div class="container footer-bottom">
       <p>© <span id="year">2026</span> Lumière Restaurant. All rights reserved.</p>
     </div>
   </footer>

@@ -5,7 +5,7 @@
   /* ---- Mobile nav toggle ---- */
   var nav = document.querySelector('.nav');
   if (nav) {
-    var toggle = nav.querySelector('.nav__toggle');
+    var toggle = nav.querySelector('.nav-toggle');
     if (toggle) {
       toggle.addEventListener('click', function () {
         var open = nav.getAttribute('data-open') === 'true';
@@ -14,7 +14,7 @@
       });
     }
     // Close drawer when a link is tapped (mobile)
-    nav.querySelectorAll('.nav__links a').forEach(function (a) {
+    nav.querySelectorAll('.nav-links a').forEach(function (a) {
       a.addEventListener('click', function () {
         nav.setAttribute('data-open', 'false');
         if (toggle) toggle.setAttribute('aria-expanded', 'false');
@@ -24,7 +24,7 @@
 
   /* ---- Active link highlight ---- */
   var here = location.pathname.split('/').pop() || 'index.html';
-  document.querySelectorAll('.nav__links a[href]').forEach(function (a) {
+  document.querySelectorAll('.nav-links a[href]').forEach(function (a) {
     var target = a.getAttribute('href');
     if (target === here || (here === 'index.html' && target === 'index.html')) {
       a.setAttribute('aria-current', 'page');
@@ -92,7 +92,7 @@
 
   document.querySelectorAll('form[data-validate-form]').forEach(function (form) {
     var fields = Array.prototype.slice.call(form.querySelectorAll('[data-validate]'));
-    var status = form.querySelector('.form__status');
+    var status = form.querySelector('.form-status');
 
     // Block past dates in the native picker (JS still validates on submit)
     form.querySelectorAll('input[type="date"]').forEach(function (d) {
@@ -134,7 +134,7 @@
   var box = document.querySelector('.lightbox');
   if (grid && box) {
     var boxImg = box.querySelector('img');
-    var boxCap = box.querySelector('.lightbox__cap');
+    var boxCap = box.querySelector('.lightbox-cap');
     var lastFocus = null;
 
     function openBox(src, alt) {
@@ -142,7 +142,7 @@
       boxImg.src = src; boxImg.alt = alt || '';
       boxCap.textContent = alt || '';
       box.setAttribute('data-open', 'true');
-      box.querySelector('.lightbox__close').focus();
+      box.querySelector('.lightbox-close').focus();
     }
     function closeBox() {
       box.setAttribute('data-open', 'false');
@@ -156,7 +156,7 @@
       openBox(img.dataset.full || img.src, img.alt);
     });
     box.addEventListener('click', function (e) {
-      if (e.target === box || e.target.closest('.lightbox__close')) closeBox();
+      if (e.target === box || e.target.closest('.lightbox-close')) closeBox();
     });
     document.addEventListener('keydown', function (e) {
       if (box.getAttribute('data-open') !== 'true') return;
@@ -164,7 +164,7 @@
       // Focus trap: only the close button is focusable, keep focus on it
       if (e.key === 'Tab') {
         e.preventDefault();
-        box.querySelector('.lightbox__close').focus();
+        box.querySelector('.lightbox-close').focus();
       }
     });
   }
