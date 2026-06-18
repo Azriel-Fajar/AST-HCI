@@ -328,10 +328,22 @@ h3 {
 .nav__links a.btn--primary {
   color: var(--charcoal);
   display: inline-flex;
+  min-height: 42px;
+  padding: 0 var(--sp-3);
+  border-radius: 999px;
+  background: linear-gradient(180deg, var(--gold), var(--gold-dark));
+  box-shadow: 0 2px 10px rgba(201, 161, 74, .35);
+  transition:
+    background var(--dur) var(--ease),
+    box-shadow var(--dur) var(--ease),
+    transform var(--dur) var(--ease);
 }
 
 .nav__links a.btn--primary:hover {
-  color: var(--white);
+  color: var(--charcoal);
+  background: linear-gradient(180deg, #d9b25e, var(--gold));
+  box-shadow: 0 4px 16px rgba(201, 161, 74, .5);
+  transform: translateY(-1px);
 }
 
 /* Mobile drawer */
